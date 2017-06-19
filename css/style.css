@@ -1,0 +1,309 @@
+@font-face {
+  font-family: ubuntuBold;
+  src: url("../fonts/ubuntuBold.ttf");
+}
+
+@font-face {
+  font-family: ubuntuLight;
+  src: url("../fonts/ubuntuLight.ttf");
+}
+
+@font-face {
+  font-family: ubuntu-R;
+  src: url("../fonts/ubuntu-R.ttf");
+}
+
+/* line 33, B:/04530Maket/scss/style.scss */
+.colorWebDesignIcon {
+  color: #4795b7;
+}
+
+/* line 36, B:/04530Maket/scss/style.scss */
+.colorWebDevelopmentIcon {
+  color: #a56bd3;
+}
+
+/* line 39, B:/04530Maket/scss/style.scss */
+.colorWebDevelopment2Icon {
+  color: #aed066;
+}
+
+/* line 42, B:/04530Maket/scss/style.scss */
+.colorWebMaintenanceIcon {
+  color: #f1438a;
+}
+
+/* line 45, B:/04530Maket/scss/style.scss */
+.colorWebMaintenance2Icon {
+  color: #ac5c5c;
+}
+
+/* line 48, B:/04530Maket/scss/style.scss */
+.colorProjectManagementIcon {
+  color: #00b7a8;
+}
+
+/* line 52, B:/04530Maket/scss/style.scss */
+body {
+  position: relative;
+  width: 1600px;
+  height: 12568px;
+  margin: 0 auto;
+}
+
+/* line 59, B:/04530Maket/scss/style.scss */
+.grayfon {
+  background-color: #f7f7f7;
+}
+
+/* line 62, B:/04530Maket/scss/style.scss */
+.paddingBlock {
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: 0 7px 7px #e0e0e0;
+}
+
+/* line 69, B:/04530Maket/scss/style.scss */
+.navColor {
+  background-color: #ffffff;
+}
+
+/* line 72, B:/04530Maket/scss/style.scss */
+.banner {
+  position: relative;
+  background-color: #7a7a7a;
+  height: 770px;
+  padding: 0;
+}
+
+/* line 78, B:/04530Maket/scss/style.scss */
+.nvbar {
+  position: relative;
+  height: 60px;
+  padding: 10px 220px;
+  background-color: #ffffff;
+}
+
+/* line 84, B:/04530Maket/scss/style.scss */
+.logo {
+  background-color: #ffffff;
+}
+
+/* line 89, B:/04530Maket/scss/style.scss */
+.nav a {
+  font-family: Ubuntu, sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  padding-top: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+  float: left;
+  color: #a69999;
+}
+
+/* line 101, B:/04530Maket/scss/style.scss */
+.socNetwork {
+  font-family: Awesome sans-serif;
+  padding-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+/* line 106, B:/04530Maket/scss/style.scss */
+.socNetwork a {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+/* line 114, B:/04530Maket/scss/style.scss */
+.socLine {
+  position: relative;
+  display: inline-block;
+  width: 2px;
+  height: 34px;
+  border: 1px solid #f3f3f3;
+}
+
+/* line 121, B:/04530Maket/scss/style.scss */
+.facebook {
+  color: #3b5998;
+}
+
+/* line 124, B:/04530Maket/scss/style.scss */
+.twitter {
+  color: #00aced;
+}
+
+/* line 127, B:/04530Maket/scss/style.scss */
+.fa {
+  padding-left: 10px;
+}
+
+/* line 130, B:/04530Maket/scss/style.scss */
+.circlesymbol {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid black;
+}
+
+/* line 139, B:/04530Maket/scss/style.scss */
+.cir3 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* line 143, B:/04530Maket/scss/style.scss */
+.inlineblock {
+  display: inline-block;
+  position: relative;
+  top: -6px;
+}
+
+/* line 148, B:/04530Maket/scss/style.scss */
+.bblock {
+  padding-top: 90px;
+  padding-bottom: 95px;
+  padding-left: 220px;
+  padding-right: 220px;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 155, B:/04530Maket/scss/style.scss */
+.ich {
+  font-size: 63px;
+}
+
+/* line 158, B:/04530Maket/scss/style.scss */
+.prodfeatures {
+  padding-top: 40px;
+  font-family: ubuntuBold;
+  letter-spacing: 5px;
+  color: #a5a5a5;
+  font-size: 15px;
+}
+
+/* line 165, B:/04530Maket/scss/style.scss */
+.tc {
+  text-align: center;
+}
+
+/* line 168, B:/04530Maket/scss/style.scss */
+.textwhatwedo {
+  color: #4c4c4c;
+  font-family: ubuntuLight;
+  font-size: 61px;
+}
+
+/* line 172, B:/04530Maket/scss/style.scss */
+.textwhatwedo span {
+  color: #1abc9c;
+}
+
+/* line 176, B:/04530Maket/scss/style.scss */
+.blockFED {
+  margin-top: 70px;
+}
+
+/* line 178, B:/04530Maket/scss/style.scss */
+.blockFED h3 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 27px;
+  padding-top: 30px;
+}
+
+/* line 183, B:/04530Maket/scss/style.scss */
+.blockFED p {
+  font-size: 16px;
+  font-family: "Ubuntu-R";
+  color: #939598;
+}
+
+/* line 191, B:/04530Maket/scss/style.scss */
+.fullyBlock span {
+  font-size: 69px;
+  color: #4796b7;
+}
+
+/* line 197, B:/04530Maket/scss/style.scss */
+.easyBlock span {
+  font-size: 69px;
+  color: #9f5cd8;
+}
+
+/* line 203, B:/04530Maket/scss/style.scss */
+.directBlock span {
+  font-size: 69px;
+  color: #f1438a;
+}
+
+/* line 211, B:/04530Maket/scss/style.scss */
+.servInnerBlock {
+  margin: 15px;
+  background-color: white;
+  height: 250px;
+  box-shadow: 0 0 7px gray;
+  padding: 15px;
+}
+
+/* line 218, B:/04530Maket/scss/style.scss */
+.servInnerBlock:hover .ServBlockIcon {
+  display: none;
+}
+
+/* line 221, B:/04530Maket/scss/style.scss */
+.servInnerBlock:hover .ServBlockText {
+  text-align: left;
+  font-weight: 700;
+  padding-left: 40px;
+}
+
+/* line 226, B:/04530Maket/scss/style.scss */
+.servInnerBlock:hover .sbhover {
+  display: block;
+}
+
+/* line 232, B:/04530Maket/scss/style.scss */
+.ServBlockText {
+  font-family: Ubuntu;
+  font-weight: 100;
+  font-size: 27px;
+  padding-top: 20px;
+  padding-left: 0;
+  text-align: center;
+}
+
+/* line 240, B:/04530Maket/scss/style.scss */
+.ServBlockIcon {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 70px;
+}
+
+/* line 245, B:/04530Maket/scss/style.scss */
+.sbhover {
+  margin: 5px 25px;
+  padding: 8px 30px;
+  font-family: UbuntuLight;
+  font-size: 16px;
+  box-shadow: 2px 2px 3px #e8e8e8;
+  text-align: left;
+  display: none;
+  color: black;
+  text-decoration: none;
+}
+
+/* line 255, B:/04530Maket/scss/style.scss */
+.sbhover:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #f2f2f2;
+}
+
+/*# sourceMappingURL=../css/style.map */

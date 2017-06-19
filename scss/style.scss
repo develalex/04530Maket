@@ -1,0 +1,261 @@
+$projectWidth: 1600px;
+$projectHeight: 12568px;
+$bannerBackColor: #7a7a7a;
+$bannerHeight: 770px;
+$paddingBlock: 220px;
+$paddingFEDblock: 70px;
+$sizeIconFED:69px;
+$navColor: #ffffff;
+$facebookColorIcon: #3b5998;
+$twitterColorIcon: #00aced;
+$navLinkColor: #a69999;
+$productFeatures: #a5a5a5;
+$textwhatwedo: #4c4c4c;
+$textwhatweDO: #1abc9c;
+$FEDH3Font: 'Ubuntu', sans-serif;
+$FEDPFont: 'Ubuntu-R';
+$FEDH3Size: 27px;
+$grayFon: #f7f7f7;
+
+@font-face{
+    font-family: ubuntuBold;
+    src:url('../fonts/ubuntuBold.ttf');
+}
+@font-face{
+    font-family: ubuntuLight;
+    src:url('../fonts/ubuntuLight.ttf');
+}
+@font-face{
+    font-family: ubuntu-R;
+    src:url('../fonts/ubuntu-R.ttf');
+}
+
+.colorWebDesignIcon{
+    color: #4795b7;
+}
+.colorWebDevelopmentIcon{
+    color:#a56bd3;
+}
+.colorWebDevelopment2Icon{
+    color:#aed066;
+}
+.colorWebMaintenanceIcon{
+    color:#f1438a;
+}
+.colorWebMaintenance2Icon{
+    color:#ac5c5c;
+}
+.colorProjectManagementIcon{
+    color: #00b7a8;
+}
+
+body{ 
+    position:relative;
+    width:$projectWidth;
+    height: $projectHeight;
+    margin: 0 auto;
+    
+}
+.grayfon{
+    background-color: $grayFon;
+}
+.paddingBlock{
+    padding-left: $paddingBlock;
+    padding-right: $paddingBlock;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 7px 7px #e0e0e0;
+}
+.navColor{
+    background-color: $navColor;
+}
+.banner{
+    position: relative;
+    background-color: $bannerBackColor;
+    height: $bannerHeight;
+    padding: 0;
+}
+.nvbar{
+    position: relative;
+    height: 60px;
+    padding: 10px $paddingBlock;
+    background-color: $navColor;
+}
+.logo{
+    background-color: $navColor;
+    
+}
+.nav{
+    a{
+        font-family: Ubuntu, sans-serif;
+        font-size: 15px;
+        display: inline-block;
+        padding-top: 14px;
+        padding-left: 12px;
+        padding-right: 12px;
+        float: left;
+        color: $navLinkColor;
+    }
+    
+}
+.socNetwork{
+    font-family: Awesome sans-serif;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    a{
+        position: relative;
+        display: inline-block;
+        height: 100%;
+        
+    }
+   
+}
+.socLine{
+    position: relative;
+    display: inline-block;
+    width: 2px;
+    height: 34px;
+    border: 1px solid #f3f3f3;
+}
+.facebook{
+    color: $facebookColorIcon;
+}
+.twitter{
+    color: $twitterColorIcon;
+}
+.fa{
+    padding-left: 10px;
+}
+.circlesymbol {
+    position: relative;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    color:black;
+    border: 1px solid black;
+}
+.cir3{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.inlineblock{
+    display: inline-block;
+    position: relative;
+    top: -6px;
+}
+.bblock{
+    padding-top: 90px;
+    padding-bottom: 95px;
+    padding-left: $paddingBlock;
+    padding-right: $paddingBlock;
+    border-bottom: 1px solid #dddddd;
+}
+.ich{
+    font-size: 63px;
+}
+.prodfeatures {
+    padding-top: 40px;
+    font-family: ubuntuBold;
+    letter-spacing: 5px;
+    color: $productFeatures;
+    font-size: 15px;
+}
+.tc{
+    text-align: center;
+}
+.textwhatwedo{
+    color: $textwhatwedo;
+    font-family: ubuntuLight;
+    font-size: 61px;
+    span{
+      color: $textwhatweDO;  
+    }
+}
+.blockFED{
+    margin-top: $paddingFEDblock;
+    h3{
+        font-family: $FEDH3Font;
+        font-size: $FEDH3Size;
+        padding-top: 30px;
+    }
+    p{
+        font-size: 16px;
+        font-family: $FEDPFont;
+        color:#939598;
+        
+    }
+}
+.fullyBlock{
+    span {
+        font-size: $sizeIconFED;
+        color:#4796b7;
+    }
+}
+.easyBlock{
+    span {
+        font-size: $sizeIconFED;
+        color:#9f5cd8;
+    }
+}
+.directBlock{
+    span {
+        font-size: $sizeIconFED;
+        color:#f1438a;
+    }
+}
+.servOuterBlock{
+    
+}
+.servInnerBlock{
+    margin: 15px;
+    background-color: white;
+    height: 250px;
+    box-shadow: 0 0 7px gray;
+    padding: 15px;
+    &:hover{
+        .ServBlockIcon{
+            display: none;
+        }
+        .ServBlockText{
+            text-align: left;
+            font-weight: 700;
+            padding-left: 40px;
+        }
+        .sbhover {
+            display: block;
+        }
+        
+    }
+}
+.ServBlockText{
+    font-family: Ubuntu;
+    font-weight: 100;
+    font-size: 27px;
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: center;
+}
+.ServBlockIcon{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 70px;
+}
+.sbhover{
+    margin: 5px 25px;
+    padding: 8px 30px;
+    font-family: UbuntuLight;
+    font-size: 16px;
+    box-shadow: 2px 2px 3px #e8e8e8;
+    text-align: left;
+    display: none;
+    color: black;
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+        color: black;
+        background-color: #f2f2f2;
+    }
+}
+
