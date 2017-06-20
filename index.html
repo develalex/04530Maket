@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <script src="/js/jquery-3.2.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/et-line-style.css">
@@ -46,7 +47,7 @@
                 <div class="socLine"></div>
             </div>
         </div>
-        <div class="row bblock">
+        <div id="whatwedo" class="row bblock">
            <div class="row">
                <div class="col-lg-offset-5 col-md-offset-5 col-lg-2 col-md-2 tc">
                    <span class="icon-happy ich"></span>
@@ -81,25 +82,38 @@
                 </div>
             </div>
         </div>
-        <div class="row bblock tc">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                       <span class="icon-clipboard ich"></span>
-                </div>
+        <div id="ourcontents" class="row bblock tc">
+            <div class="col-lg-12 col-md-12">
+                   <span class="icon-clipboard ich"></span>
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <p class="prodfeatures">CONTENT DESCRIPTION</p>
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <p class="textwhatwedo">Our <span>Contents</span></p>
             </div>
             <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <p class="prodfeatures">CONTENT DESCRIPTION</p>
+                <div class="col-lg-8 col-md-8">
+                    <div id="slider">
+                        <p>slider</p>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <p class="textwhatwedo">Our <span>Contents</span></p>
+                <div class="col-lg-4 col-md-4">
+                    <div id="messageAccordion">
+                       <h3>Lorem ipsum dolor.</h3>
+                       <div>Natus explicabo quo autem quia sit possimus iusto? Perferendis, nesciunt dicta aliquid.Natus explicabo quo autem quia sit possimus iusto? Perferendis, nesciunt dicta aliquid.</div>
+                       <h3>Lorem ipsum dolor.</h3>
+                       <div>Officia illum, fuga nemo, dolor assumenda cumque est, quod ipsum veniam et suscipit deserunt aperiam molestiae, optio repellendus rerum doloribus eligendi impedit.</div>
+                       <h3>Lorem ipsum dolor.</h3>
+                       <div>Voluptates alias veritatis delectus accusamus in vitae earum sequi doloremque quo sint! Delectus nam sunt magnam ab, hic aliquid ut ipsa necessitatibus.</div>
+                        
+                    </div>
                 </div>
             </div>
             
+            
         </div>
-<div class="row bblock tc grayfon">
+        <div id="serviceweprovide" class="row bblock tc grayfon">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                        <span class=" icon-tools ich"></span>
@@ -167,4 +181,9 @@
         </div>
     </div>
 </body>
+<script>
+    $('#messageAccordion').accordion({
+        heightStyle:"content"
+    });
+</script>
 </html>
