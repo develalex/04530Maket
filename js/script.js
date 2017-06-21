@@ -9,24 +9,24 @@ $(function(){
     
 });
 function clearActiveTab(){
-        $('.--tab').removeClass('--tabActive');
-        $('.--tbCont').css('display','none');
+        $('.tab').removeClass('tabActive');
+        $('.tbCont').css('display','none');
         
     }
 function tabAboutClick(){
     clearActiveTab();
-    $('#tabAbout').addClass('--tabActive');
+    $('#tabAbout').addClass('tabActive');
     $('#AboutContent').css('display','block');
     
     };
  
 function tabIntroClick(){
     clearActiveTab();
-    $('#tabIntroduction').addClass('--tabActive');
+    $('#tabIntroduction').addClass('tabActive');
     $('#IntroContent').css('display','block');
 };
 function tabFeaturesClick(){
     clearActiveTab();
-    $('#tabFeatures').addClass('--tabActive');
+    $('#tabFeatures').addClass('tabActive');
     $('#FeaturesContent').css('display','block');
 };

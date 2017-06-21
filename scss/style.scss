@@ -54,6 +54,30 @@ $grayFon: #f7f7f7;
 .colorWHGreen{
     color:chartreuse;
 }
+.bcolor1{
+    background-color: #fdbd4f;
+}
+.bcolor2{
+    background-color: #b8c496;
+}
+.bcolor3{
+    background-color: #65bcd0;
+}
+.bcolor4{
+    background-color: #d7f0ed;
+}
+.bcolor5{
+    background-color: #e0eaf3;
+}
+.bcolor6{
+    background-color: #d2c2b3;
+}
+.bcolor7{
+    background-color: #e5e4e2;
+}
+.bcolor8{
+    background-color: #ffc301;
+}
 body{ 
     position:relative;
     width:$projectWidth;
@@ -155,6 +179,11 @@ body{
     padding-bottom: 95px;
     padding-left: $paddingBlock;
     padding-right: $paddingBlock;
+    border-bottom: 1px solid #dddddd;
+}
+.cblock{
+    padding-top: 90px;
+    padding-bottom: 95px;
     border-bottom: 1px solid #dddddd;
 }
 .ich{
@@ -308,27 +337,42 @@ body{
     position: absolute;
     bottom: 0;
 }
-.--tab{
+.tabOurWorks{
+    display: inline-block;
+    padding: 18px 40px;
+    margin: 0 1px;
+    box-shadow: 0 0 5px 2px  #e9e9e8;
+    font-family: 'Ubuntu-R' ,sans-serif;
+    color:white;
+    background-color: #1abc9c;
+    font-size: 18px;
+    
+}
+.tabOurWorksActive{
+    background-color: black;
+}
+
+.tab{
     display: inline-block;
     padding: 18px 40px;
     margin: 0 1px;
     box-shadow: 0 0 5px 2px  #e9e9e8;
     border-radius: 5px 5px 0 0;
-    font-family: Ubuntu-R;
+    font-family: 'Ubuntu-R' sans-serif;
     
 }
-.--tabActive{
+.tabActive{
     color: white;
     background-color: #1abc9c;
 }
 
-#-tabContent{
+#tabContent{
     padding-top: 110px;
 }
 #IntroContent h3{
     margin-top: 60px;
 }
-.-tabText{
+.tabText{
     font-family: UbuntuLight;
     text-align: left;
     margin-top: auto 0;
@@ -344,14 +388,64 @@ body{
         
     }
 }
-.--tbCont{
+.tbCont{
     display: none;
 }
-.--tbContActive{
+.tbContActive{
     display: block;
 }
 .bIcon{
     font-size: 220px;
     padding: 20px;
     
+}
+.worksSquard{
+    position: relative;
+    height: 260px;
+    transition: all .5s;
+    &:hover{
+        transform: translate(0,-70px);
+        .blHover{
+            opacity: 1;
+        }
+        .underBlock{
+            opacity: 1;
+        }
+    }
+}
+.OurWorksLink{
+    padding-bottom: 80px;
+}
+.blockCss{
+    margin: 1px;
+    padding: 5px;
+    font-family: 'Ubuntu-R', sans-serif;
+    font-size: 11px;
+    border-radius: 5px;
+    background-color: #f2ede8;
+    color: #5ebd85;
+}
+.blHover{
+    position: relative;
+    opacity: 0;
+    transition: all .5s;
+    
+}
+.blockHover{
+    text-align: left;
+    padding: 20px;
+}
+.bImg{
+    max-height: 130px;
+    max-width: 130px;
+}
+.underBlock{
+    opacity: 0;
+    padding: 10px;
+    background-color: #252830;
+    color:white;
+    text-align: left;
+    position: relative;
+    bottom: -70px;
+    transition: opacity .5s;
 }
