@@ -51,6 +51,15 @@ $grayFon: #f7f7f7;
 .colorAqua {
     color: aqua;
 }
+.colorMagenta{
+    color: magenta;
+}
+.colorYellow{
+    color:yellow;
+}
+.colorRed{
+    color: red;
+}
 .colorWHGreen{
     color:chartreuse;
 }
@@ -402,15 +411,62 @@ body{
 .worksSquard{
     position: relative;
     height: 260px;
-    transition: all .5s;
+    transition: all .2s;
+    z-index: 2;
+
+}
+
+.block{
+    position: relative;
+    height: 260px;
+    transition: all .2s;
+    z-index: 2;
     &:hover{
-        transform: translate(0,-70px);
+        z-index: 3;
         .blHover{
             opacity: 1;
+            
         }
         .underBlock{
             opacity: 1;
         }
+        
+    }
+}
+.rollUp{
+    &:hover .worksSquard{
+            transform: translate(0,-70px);
+        }   
+    
+}
+.rollDown{
+    &:hover .worksSquard{
+            transform: translate(0,70px);
+        }
+    
+}
+.blockIcon{
+    font-size: 180px;
+    padding:30px;
+}
+.underBlock{
+    //opacity: 0;
+    padding: 10px;
+    background-color: #252830;
+    color:white;
+    position: absolute;
+    //bottom:0;
+    //transition: opacity 1s;
+    z-index: 1;
+    }
+.rollUp{
+    .underBlock{
+                bottom: 0;
+            }
+}
+.rollDown{
+    .underBlock{
+        top:0;
     }
 }
 .OurWorksLink{
@@ -432,20 +488,10 @@ body{
     
 }
 .blockHover{
-    text-align: left;
     padding: 20px;
 }
 .bImg{
     max-height: 130px;
     max-width: 130px;
 }
-.underBlock{
-    opacity: 0;
-    padding: 10px;
-    background-color: #252830;
-    color:white;
-    text-align: left;
-    position: relative;
-    bottom: -70px;
-    transition: opacity .5s;
-}
+

@@ -49,51 +49,66 @@
 }
 
 /* line 54, B:/04530Maket/scss/style.scss */
+.colorMagenta {
+  color: magenta;
+}
+
+/* line 57, B:/04530Maket/scss/style.scss */
+.colorYellow {
+  color: yellow;
+}
+
+/* line 60, B:/04530Maket/scss/style.scss */
+.colorRed {
+  color: red;
+}
+
+/* line 63, B:/04530Maket/scss/style.scss */
 .colorWHGreen {
   color: chartreuse;
 }
 
-/* line 57, B:/04530Maket/scss/style.scss */
+/* line 66, B:/04530Maket/scss/style.scss */
 .bcolor1 {
   background-color: #fdbd4f;
 }
 
-/* line 60, B:/04530Maket/scss/style.scss */
+/* line 69, B:/04530Maket/scss/style.scss */
 .bcolor2 {
   background-color: #b8c496;
 }
 
-/* line 63, B:/04530Maket/scss/style.scss */
+/* line 72, B:/04530Maket/scss/style.scss */
 .bcolor3 {
   background-color: #65bcd0;
 }
 
-/* line 66, B:/04530Maket/scss/style.scss */
+/* line 75, B:/04530Maket/scss/style.scss */
 .bcolor4 {
   background-color: #d7f0ed;
 }
 
-/* line 69, B:/04530Maket/scss/style.scss */
+/* line 78, B:/04530Maket/scss/style.scss */
 .bcolor5 {
   background-color: #e0eaf3;
 }
 
-/* line 72, B:/04530Maket/scss/style.scss */
+/* line 81, B:/04530Maket/scss/style.scss */
 .bcolor6 {
   background-color: #d2c2b3;
 }
 
-/* line 75, B:/04530Maket/scss/style.scss */
+/* line 84, B:/04530Maket/scss/style.scss */
 .bcolor7 {
   background-color: #e5e4e2;
 }
 
-/* line 78, B:/04530Maket/scss/style.scss */
+/* line 87, B:/04530Maket/scss/style.scss */
 .bcolor8 {
   background-color: #ffc301;
 }
 
-/* line 81, B:/04530Maket/scss/style.scss */
+/* line 90, B:/04530Maket/scss/style.scss */
 body {
   position: relative;
   width: 1600px;
@@ -101,12 +116,12 @@ body {
   margin: 0 auto;
 }
 
-/* line 88, B:/04530Maket/scss/style.scss */
+/* line 97, B:/04530Maket/scss/style.scss */
 .grayfon {
   background-color: #f7f7f7;
 }
 
-/* line 91, B:/04530Maket/scss/style.scss */
+/* line 100, B:/04530Maket/scss/style.scss */
 .paddingBlock {
   padding-left: 220px;
   padding-right: 220px;
@@ -115,12 +130,12 @@ body {
   box-shadow: 0 7px 7px #e0e0e0;
 }
 
-/* line 98, B:/04530Maket/scss/style.scss */
+/* line 107, B:/04530Maket/scss/style.scss */
 .navColor {
   background-color: #ffffff;
 }
 
-/* line 101, B:/04530Maket/scss/style.scss */
+/* line 110, B:/04530Maket/scss/style.scss */
 .banner {
   position: relative;
   background-color: #7a7a7a;
@@ -128,7 +143,7 @@ body {
   padding: 0;
 }
 
-/* line 107, B:/04530Maket/scss/style.scss */
+/* line 116, B:/04530Maket/scss/style.scss */
 .nvbar {
   position: relative;
   height: 60px;
@@ -136,12 +151,12 @@ body {
   background-color: #ffffff;
 }
 
-/* line 113, B:/04530Maket/scss/style.scss */
+/* line 122, B:/04530Maket/scss/style.scss */
 .logo {
   background-color: #ffffff;
 }
 
-/* line 118, B:/04530Maket/scss/style.scss */
+/* line 127, B:/04530Maket/scss/style.scss */
 .nav a {
   font-family: Ubuntu, sans-serif;
   font-size: 15px;
@@ -153,7 +168,7 @@ body {
   color: #a69999;
 }
 
-/* line 130, B:/04530Maket/scss/style.scss */
+/* line 139, B:/04530Maket/scss/style.scss */
 .socNetwork {
   font-family: Awesome sans-serif;
   padding-left: 30px;
@@ -161,14 +176,14 @@ body {
   padding-bottom: 3px;
 }
 
-/* line 135, B:/04530Maket/scss/style.scss */
+/* line 144, B:/04530Maket/scss/style.scss */
 .socNetwork a {
   position: relative;
   display: inline-block;
   height: 100%;
 }
 
-/* line 143, B:/04530Maket/scss/style.scss */
+/* line 152, B:/04530Maket/scss/style.scss */
 .socLine {
   position: relative;
   display: inline-block;
@@ -177,22 +192,22 @@ body {
   border: 1px solid #f3f3f3;
 }
 
-/* line 150, B:/04530Maket/scss/style.scss */
+/* line 159, B:/04530Maket/scss/style.scss */
 .facebook {
   color: #3b5998;
 }
 
-/* line 153, B:/04530Maket/scss/style.scss */
+/* line 162, B:/04530Maket/scss/style.scss */
 .twitter {
   color: #00aced;
 }
 
-/* line 156, B:/04530Maket/scss/style.scss */
+/* line 165, B:/04530Maket/scss/style.scss */
 .fa {
   padding-left: 10px;
 }
 
-/* line 159, B:/04530Maket/scss/style.scss */
+/* line 168, B:/04530Maket/scss/style.scss */
 .circlesymbol {
   position: relative;
   display: inline-block;
@@ -203,20 +218,20 @@ body {
   border: 1px solid black;
 }
 
-/* line 168, B:/04530Maket/scss/style.scss */
+/* line 177, B:/04530Maket/scss/style.scss */
 .cir3 {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-/* line 172, B:/04530Maket/scss/style.scss */
+/* line 181, B:/04530Maket/scss/style.scss */
 .inlineblock {
   display: inline-block;
   position: relative;
   top: -6px;
 }
 
-/* line 177, B:/04530Maket/scss/style.scss */
+/* line 186, B:/04530Maket/scss/style.scss */
 .bblock {
   padding-top: 90px;
   padding-bottom: 95px;
@@ -225,19 +240,19 @@ body {
   border-bottom: 1px solid #dddddd;
 }
 
-/* line 184, B:/04530Maket/scss/style.scss */
+/* line 193, B:/04530Maket/scss/style.scss */
 .cblock {
   padding-top: 90px;
   padding-bottom: 95px;
   border-bottom: 1px solid #dddddd;
 }
 
-/* line 189, B:/04530Maket/scss/style.scss */
+/* line 198, B:/04530Maket/scss/style.scss */
 .ich {
   font-size: 63px;
 }
 
-/* line 192, B:/04530Maket/scss/style.scss */
+/* line 201, B:/04530Maket/scss/style.scss */
 .prodfeatures {
   padding-top: 40px;
   font-family: ubuntuBold;
@@ -246,12 +261,12 @@ body {
   font-size: 15px;
 }
 
-/* line 199, B:/04530Maket/scss/style.scss */
+/* line 208, B:/04530Maket/scss/style.scss */
 .tc {
   text-align: center;
 }
 
-/* line 202, B:/04530Maket/scss/style.scss */
+/* line 211, B:/04530Maket/scss/style.scss */
 .textwhatwedo {
   color: #4c4c4c;
   font-family: ubuntuLight;
@@ -259,49 +274,49 @@ body {
   padding-bottom: 90px;
 }
 
-/* line 207, B:/04530Maket/scss/style.scss */
+/* line 216, B:/04530Maket/scss/style.scss */
 .textwhatwedo span {
   color: #1abc9c;
 }
 
-/* line 211, B:/04530Maket/scss/style.scss */
+/* line 220, B:/04530Maket/scss/style.scss */
 .blockFED {
   margin-top: 70px;
 }
 
-/* line 213, B:/04530Maket/scss/style.scss */
+/* line 222, B:/04530Maket/scss/style.scss */
 .blockFED h3 {
   font-family: "Ubuntu", sans-serif;
   font-size: 27px;
   padding-top: 30px;
 }
 
-/* line 218, B:/04530Maket/scss/style.scss */
+/* line 227, B:/04530Maket/scss/style.scss */
 .blockFED p {
   font-size: 16px;
   font-family: "Ubuntu-R";
   color: #939598;
 }
 
-/* line 226, B:/04530Maket/scss/style.scss */
+/* line 235, B:/04530Maket/scss/style.scss */
 .fullyBlock span {
   font-size: 69px;
   color: #4796b7;
 }
 
-/* line 232, B:/04530Maket/scss/style.scss */
+/* line 241, B:/04530Maket/scss/style.scss */
 .easyBlock span {
   font-size: 69px;
   color: #9f5cd8;
 }
 
-/* line 238, B:/04530Maket/scss/style.scss */
+/* line 247, B:/04530Maket/scss/style.scss */
 .directBlock span {
   font-size: 69px;
   color: #f1438a;
 }
 
-/* line 246, B:/04530Maket/scss/style.scss */
+/* line 255, B:/04530Maket/scss/style.scss */
 .servInnerBlock {
   margin: 15px;
   background-color: white;
@@ -310,24 +325,24 @@ body {
   padding: 15px;
 }
 
-/* line 253, B:/04530Maket/scss/style.scss */
+/* line 262, B:/04530Maket/scss/style.scss */
 .servInnerBlock:hover .ServBlockIcon {
   display: none;
 }
 
-/* line 256, B:/04530Maket/scss/style.scss */
+/* line 265, B:/04530Maket/scss/style.scss */
 .servInnerBlock:hover .ServBlockText {
   text-align: left;
   font-weight: 700;
   padding-left: 40px;
 }
 
-/* line 261, B:/04530Maket/scss/style.scss */
+/* line 270, B:/04530Maket/scss/style.scss */
 .servInnerBlock:hover .sbhover {
   display: block;
 }
 
-/* line 267, B:/04530Maket/scss/style.scss */
+/* line 276, B:/04530Maket/scss/style.scss */
 .ServBlockText {
   font-family: Ubuntu;
   font-weight: 100;
@@ -337,14 +352,14 @@ body {
   text-align: center;
 }
 
-/* line 275, B:/04530Maket/scss/style.scss */
+/* line 284, B:/04530Maket/scss/style.scss */
 .ServBlockIcon {
   padding-top: 20px;
   text-align: center;
   font-size: 70px;
 }
 
-/* line 280, B:/04530Maket/scss/style.scss */
+/* line 289, B:/04530Maket/scss/style.scss */
 .sbhover {
   margin: 5px 25px;
   padding: 8px 30px;
@@ -357,19 +372,19 @@ body {
   text-decoration: none;
 }
 
-/* line 290, B:/04530Maket/scss/style.scss */
+/* line 299, B:/04530Maket/scss/style.scss */
 .sbhover:hover {
   text-decoration: none;
   color: black;
   background-color: #f2f2f2;
 }
 
-/* line 296, B:/04530Maket/scss/style.scss */
+/* line 305, B:/04530Maket/scss/style.scss */
 .msBox {
   height: 500px;
 }
 
-/* line 299, B:/04530Maket/scss/style.scss */
+/* line 308, B:/04530Maket/scss/style.scss */
 #slider {
   margin: 0 10px;
   background-color: chartreuse;
@@ -379,14 +394,14 @@ body {
   height: 500px;
 }
 
-/* line 307, B:/04530Maket/scss/style.scss */
+/* line 316, B:/04530Maket/scss/style.scss */
 #messageAccordion {
   margin: 10px;
   box-shadow: 0 0 3px 1px #dcdddf;
   text-align: left;
 }
 
-/* line 312, B:/04530Maket/scss/style.scss */
+/* line 321, B:/04530Maket/scss/style.scss */
 #messageAccordion h3 {
   padding: 35px 20px;
   margin: 0;
@@ -397,20 +412,20 @@ body {
   border-bottom: 1px solid #dcdddf;
 }
 
-/* line 323, B:/04530Maket/scss/style.scss */
+/* line 332, B:/04530Maket/scss/style.scss */
 #messageAccordion .ui-accordion-header-active {
   font-size: 20px;
   color: black;
 }
 
-/* line 327, B:/04530Maket/scss/style.scss */
+/* line 336, B:/04530Maket/scss/style.scss */
 #messageAccordion div {
   padding: 10px 20px;
   border: 5px solid transparent;
   border-bottom: 1px solid #dcdddf;
 }
 
-/* line 333, B:/04530Maket/scss/style.scss */
+/* line 342, B:/04530Maket/scss/style.scss */
 .messageNotice {
   margin: 10px;
   font-family: Ubuntu-R;
@@ -419,7 +434,7 @@ body {
   bottom: 0;
 }
 
-/* line 340, B:/04530Maket/scss/style.scss */
+/* line 349, B:/04530Maket/scss/style.scss */
 .tabOurWorks {
   display: inline-block;
   padding: 18px 40px;
@@ -431,12 +446,12 @@ body {
   font-size: 18px;
 }
 
-/* line 351, B:/04530Maket/scss/style.scss */
+/* line 360, B:/04530Maket/scss/style.scss */
 .tabOurWorksActive {
   background-color: black;
 }
 
-/* line 355, B:/04530Maket/scss/style.scss */
+/* line 364, B:/04530Maket/scss/style.scss */
 .tab {
   display: inline-block;
   padding: 18px 40px;
@@ -446,86 +461,130 @@ body {
   font-family: 'Ubuntu-R' sans-serif;
 }
 
-/* line 364, B:/04530Maket/scss/style.scss */
+/* line 373, B:/04530Maket/scss/style.scss */
 .tabActive {
   color: white;
   background-color: #1abc9c;
 }
 
-/* line 369, B:/04530Maket/scss/style.scss */
+/* line 378, B:/04530Maket/scss/style.scss */
 #tabContent {
   padding-top: 110px;
 }
 
-/* line 372, B:/04530Maket/scss/style.scss */
+/* line 381, B:/04530Maket/scss/style.scss */
 #IntroContent h3 {
   margin-top: 60px;
 }
 
-/* line 375, B:/04530Maket/scss/style.scss */
+/* line 384, B:/04530Maket/scss/style.scss */
 .tabText {
   font-family: UbuntuLight;
   text-align: left;
   margin-top: auto 0;
 }
 
-/* line 380, B:/04530Maket/scss/style.scss */
+/* line 389, B:/04530Maket/scss/style.scss */
 .tabText h3 {
   font-size: 27px;
   padding-right: 150px;
 }
 
-/* line 384, B:/04530Maket/scss/style.scss */
+/* line 393, B:/04530Maket/scss/style.scss */
 .tabText p {
   font-size: 16px;
   padding-top: 20px;
   color: #c9c9c9;
 }
 
-/* line 391, B:/04530Maket/scss/style.scss */
+/* line 400, B:/04530Maket/scss/style.scss */
 .tbCont {
   display: none;
 }
 
-/* line 394, B:/04530Maket/scss/style.scss */
+/* line 403, B:/04530Maket/scss/style.scss */
 .tbContActive {
   display: block;
 }
 
-/* line 397, B:/04530Maket/scss/style.scss */
+/* line 406, B:/04530Maket/scss/style.scss */
 .bIcon {
   font-size: 220px;
   padding: 20px;
 }
 
-/* line 402, B:/04530Maket/scss/style.scss */
+/* line 411, B:/04530Maket/scss/style.scss */
 .worksSquard {
   position: relative;
   height: 260px;
-  transition: all .5s;
+  transition: all .2s;
+  z-index: 2;
 }
 
-/* line 406, B:/04530Maket/scss/style.scss */
-.worksSquard:hover {
+/* line 419, B:/04530Maket/scss/style.scss */
+.block {
+  position: relative;
+  height: 260px;
+  transition: all .2s;
+  z-index: 2;
+}
+
+/* line 424, B:/04530Maket/scss/style.scss */
+.block:hover {
+  z-index: 3;
+}
+
+/* line 426, B:/04530Maket/scss/style.scss */
+.block:hover .blHover {
+  opacity: 1;
+}
+
+/* line 430, B:/04530Maket/scss/style.scss */
+.block:hover .underBlock {
+  opacity: 1;
+}
+
+/* line 437, B:/04530Maket/scss/style.scss */
+.rollUp:hover .worksSquard {
   transform: translate(0, -70px);
 }
 
-/* line 408, B:/04530Maket/scss/style.scss */
-.worksSquard:hover .blHover {
-  opacity: 1;
+/* line 443, B:/04530Maket/scss/style.scss */
+.rollDown:hover .worksSquard {
+  transform: translate(0, 70px);
 }
 
-/* line 411, B:/04530Maket/scss/style.scss */
-.worksSquard:hover .underBlock {
-  opacity: 1;
+/* line 448, B:/04530Maket/scss/style.scss */
+.blockIcon {
+  font-size: 180px;
+  padding: 30px;
 }
 
-/* line 416, B:/04530Maket/scss/style.scss */
+/* line 452, B:/04530Maket/scss/style.scss */
+.underBlock {
+  padding: 10px;
+  background-color: #252830;
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+/* line 463, B:/04530Maket/scss/style.scss */
+.rollUp .underBlock {
+  bottom: 0;
+}
+
+/* line 468, B:/04530Maket/scss/style.scss */
+.rollDown .underBlock {
+  top: 0;
+}
+
+/* line 472, B:/04530Maket/scss/style.scss */
 .OurWorksLink {
   padding-bottom: 80px;
 }
 
-/* line 419, B:/04530Maket/scss/style.scss */
+/* line 475, B:/04530Maket/scss/style.scss */
 .blockCss {
   margin: 1px;
   padding: 5px;
@@ -536,35 +595,22 @@ body {
   color: #5ebd85;
 }
 
-/* line 428, B:/04530Maket/scss/style.scss */
+/* line 484, B:/04530Maket/scss/style.scss */
 .blHover {
   position: relative;
   opacity: 0;
   transition: all .5s;
 }
 
-/* line 434, B:/04530Maket/scss/style.scss */
+/* line 490, B:/04530Maket/scss/style.scss */
 .blockHover {
-  text-align: left;
   padding: 20px;
 }
 
-/* line 438, B:/04530Maket/scss/style.scss */
+/* line 493, B:/04530Maket/scss/style.scss */
 .bImg {
   max-height: 130px;
   max-width: 130px;
-}
-
-/* line 442, B:/04530Maket/scss/style.scss */
-.underBlock {
-  opacity: 0;
-  padding: 10px;
-  background-color: #252830;
-  color: white;
-  text-align: left;
-  position: relative;
-  bottom: -70px;
-  transition: opacity .5s;
 }
 
 /*# sourceMappingURL=../css/style.map */
