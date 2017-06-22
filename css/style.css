@@ -647,4 +647,83 @@ body {
   font-size: 19px;
 }
 
+/* line 522, B:/04530Maket/scss/style.scss */
+#newFeatures {
+  background: #f9f9f9;
+  color: #939598;
+}
+
+/* line 525, B:/04530Maket/scss/style.scss */
+#newFeatures h2 {
+  font-family: 'ubuntuBold',sans-serif;
+  font-size: 33px;
+  color: black;
+}
+
+/* line 531, B:/04530Maket/scss/style.scss */
+#newFeatures h3 {
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 33px;
+}
+
+/* line 534, B:/04530Maket/scss/style.scss */
+#newFeatures h3 span {
+  color: #1abc9c;
+}
+
+/* line 538, B:/04530Maket/scss/style.scss */
+#newFeatures h6 {
+  padding-top: 15px;
+  font-family: 'ubuntuLight',sans-serif;
+  font-size: 15px;
+  padding-bottom: 60px;
+}
+
+/* line 546, B:/04530Maket/scss/style.scss */
+#newFeatures ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 80px;
+}
+
+/* line 550, B:/04530Maket/scss/style.scss */
+#newFeatures ul li {
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+/* line 554, B:/04530Maket/scss/style.scss */
+#newFeatures ul li:before {
+  font-family: 'FontAwesome';
+  color: black;
+  font-size: 17px;
+  content: '\f18e';
+  padding-right: 10px;
+}
+
+/* line 564, B:/04530Maket/scss/style.scss */
+#newFeatures button {
+  padding: 20px 40px;
+  font-family: 'Ubuntu-R',sans-serif;
+  font-size: 20px;
+}
+
+/* line 570, B:/04530Maket/scss/style.scss */
+#newFeatures .butBlack {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}
+
+/* line 576, B:/04530Maket/scss/style.scss */
+.UbBold {
+  font-family: 'ubuntuBold', sans-serif;
+}
+
+/* line 579, B:/04530Maket/scss/style.scss */
+.UbRegular {
+  font-family: 'ubuntu-R',sans-serif;
+}
+
 /*# sourceMappingURL=../css/style.map */

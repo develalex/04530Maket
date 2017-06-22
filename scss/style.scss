@@ -519,3 +519,63 @@ body{
 .persPosition{
     font-size: 19px;
 }
+#newFeatures{
+    background: #f9f9f9;
+    color: #939598;
+    h2{
+        font-family: 'ubuntuBold',sans-serif;
+        font-size: 33px;
+        color: black;
+        
+    }
+    h3{
+        font-family: 'Ubuntu-R',sans-serif;
+        font-size: 33px;
+        span{
+            color: $textwhatweDO;
+        }
+    }
+    h6{
+        padding-top: 15px;
+        font-family: 'ubuntuLight',sans-serif;
+        font-size: 15px;
+        padding-bottom: 60px;
+        
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        padding-bottom: 80px;
+            li{
+                font-family: 'Ubuntu-R',sans-serif;
+                font-size: 16px;
+                padding:10px 0;
+                &:before{
+                    font-family: 'FontAwesome';
+                    color: black;
+                    font-size: 17px;
+                    content: '\f18e';
+                    padding-right: 10px;
+                    }
+         
+            }
+    }
+    button{
+        padding: 20px 40px;
+        font-family: 'Ubuntu-R',sans-serif;
+        font-size: 20px;
+        
+    }
+    .butBlack{
+            background-color: black;
+            color: white;
+            border-radius: 0;
+        }
+}
+.UbBold{
+    font-family: 'ubuntuBold', sans-serif;
+}
+.UbRegular{
+    font-family: 'ubuntu-R',sans-serif;
+}
