@@ -573,12 +573,7 @@ body{
             border-radius: 0;
         }
 }
-.UbBold{
-    font-family: 'ubuntuBold', sans-serif;
-}
-.UbRegular{
-    font-family: 'ubuntu-R',sans-serif;
-}
+
 .rectangles{
     position: relative;
     padding-top: 50px;
@@ -604,4 +599,32 @@ body{
 .rect3{
     top: 260px;
     box-shadow: 20px 20px 30px 1px gray;
+}
+
+#blackBlock{
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-left: $paddingBlock;
+    padding-right: $paddingBlock;
+    background-color: #141519;
+    color: #f9f9f9;
+    h3{
+        font-family: 'Ubuntu-R',sans-serif;
+        padding-bottom: 30px;
+    }
+}
+.blackColumn{
+    
+    h1{
+        font-family: "ubuntuLight" sans-serif;
+        font-size: 47px;
+        padding-bottom: 20px;
+    }
+    h6{
+        font-family: "ubuntu-R" , sans-serif;
+        font-size: 18px;
+    }
+    .et{
+        font-size: 47px;
+    }
 }

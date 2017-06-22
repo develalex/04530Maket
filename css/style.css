@@ -716,23 +716,13 @@ body {
   border-radius: 0;
 }
 
-/* line 576, B:/04530Maket/scss/style.scss */
-.UbBold {
-  font-family: 'ubuntuBold', sans-serif;
-}
-
-/* line 579, B:/04530Maket/scss/style.scss */
-.UbRegular {
-  font-family: 'ubuntu-R',sans-serif;
-}
-
-/* line 582, B:/04530Maket/scss/style.scss */
+/* line 577, B:/04530Maket/scss/style.scss */
 .rectangles {
   position: relative;
   padding-top: 50px;
 }
 
-/* line 587, B:/04530Maket/scss/style.scss */
+/* line 582, B:/04530Maket/scss/style.scss */
 .rectangle {
   position: absolute;
   width: 400px;
@@ -741,22 +731,56 @@ body {
   transform: rotate3d(0, 0, 1, 22deg) rotate3d(0, 0, 1, 12deg) rotate3d(1, 0, 0, 40deg);
 }
 
-/* line 596, B:/04530Maket/scss/style.scss */
+/* line 591, B:/04530Maket/scss/style.scss */
 .rect1 {
   top: 100px;
   box-shadow: 20px 20px 30px 1px gray;
 }
 
-/* line 600, B:/04530Maket/scss/style.scss */
+/* line 595, B:/04530Maket/scss/style.scss */
 .rect2 {
   top: 180px;
   box-shadow: 20px 20px 30px 1px gray;
 }
 
-/* line 604, B:/04530Maket/scss/style.scss */
+/* line 599, B:/04530Maket/scss/style.scss */
 .rect3 {
   top: 260px;
   box-shadow: 20px 20px 30px 1px gray;
+}
+
+/* line 604, B:/04530Maket/scss/style.scss */
+#blackBlock {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-left: 220px;
+  padding-right: 220px;
+  background-color: #141519;
+  color: #f9f9f9;
+}
+
+/* line 611, B:/04530Maket/scss/style.scss */
+#blackBlock h3 {
+  font-family: 'Ubuntu-R',sans-serif;
+  padding-bottom: 30px;
+}
+
+/* line 618, B:/04530Maket/scss/style.scss */
+.blackColumn h1 {
+  font-family: "ubuntuLight" sans-serif;
+  font-size: 47px;
+  padding-bottom: 20px;
+}
+
+/* line 623, B:/04530Maket/scss/style.scss */
+.blackColumn h6 {
+  font-family: "ubuntu-R" , sans-serif;
+  font-size: 18px;
+}
+
+/* line 627, B:/04530Maket/scss/style.scss */
+.blackColumn .et {
+  font-size: 47px;
 }
 
 /*# sourceMappingURL=../css/style.map */
