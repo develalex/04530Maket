@@ -765,22 +765,63 @@ body {
   padding-bottom: 30px;
 }
 
-/* line 618, B:/04530Maket/scss/style.scss */
-.blackColumn h1 {
+/* line 616, B:/04530Maket/scss/style.scss */
+.bh1 {
   font-family: "ubuntuLight" sans-serif;
   font-size: 47px;
   padding-bottom: 20px;
 }
 
-/* line 623, B:/04530Maket/scss/style.scss */
-.blackColumn h6 {
+/* line 621, B:/04530Maket/scss/style.scss */
+.bh6 {
   font-family: "ubuntu-R" , sans-serif;
   font-size: 18px;
 }
 
-/* line 627, B:/04530Maket/scss/style.scss */
+/* line 629, B:/04530Maket/scss/style.scss */
 .blackColumn .et {
   font-size: 47px;
+  padding-bottom: 10px;
+}
+
+/* line 634, B:/04530Maket/scss/style.scss */
+#subscribe {
+  font-family: ubuntuLight,sans-serif;
+  background-color: #f1f1ef;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+/* line 641, B:/04530Maket/scss/style.scss */
+.subscribeP {
+  font-size: 46px;
+  color: #4c4c4c;
+  margin: 0 5px;
+}
+
+/* line 647, B:/04530Maket/scss/style.scss */
+.emailBlock {
+  background-color: white;
+  color: #c3c7d1;
+  font-size: 14px;
+  padding: 15px 10px;
+  margin: 0 10px;
+  position: relative;
+}
+
+/* line 655, B:/04530Maket/scss/style.scss */
+.emailIcon {
+  color: #1abc9c;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+/* line 661, B:/04530Maket/scss/style.scss */
+.subscribeText {
+  font-size: 16px;
+  color: #939598;
+  padding: 40px 10px;
 }
 
 /*# sourceMappingURL=../css/style.map */

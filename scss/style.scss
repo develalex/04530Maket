@@ -613,18 +613,53 @@ body{
         padding-bottom: 30px;
     }
 }
-.blackColumn{
-    
-    h1{
+.bh1{
         font-family: "ubuntuLight" sans-serif;
         font-size: 47px;
         padding-bottom: 20px;
     }
-    h6{
+.bh6{
         font-family: "ubuntu-R" , sans-serif;
         font-size: 18px;
     }
+.blackColumn{
+    
+    
+    
     .et{
         font-size: 47px;
+        padding-bottom: 10px;
     }
+}
+#subscribe{
+    font-family: ubuntuLight,sans-serif;
+    background-color: #f1f1ef;
+    padding-top: 75px;
+    padding-bottom: 75px;
+
+}
+.subscribeP{
+    font-size: 46px;
+    color: #4c4c4c;
+    margin: 0 5px;
+    
+}
+.emailBlock{
+    background-color: white;
+    color: #c3c7d1;
+    font-size: 14px;
+    padding: 15px 10px;
+    margin: 0 10px;
+    position: relative;
+}
+.emailIcon{
+    color: #1abc9c;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.subscribeText{
+    font-size: 16px;
+    color: #939598;
+    padding: 40px 10px;
 }
