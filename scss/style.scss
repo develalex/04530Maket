@@ -651,6 +651,10 @@ body{
     padding: 15px 10px;
     margin: 0 10px;
     position: relative;
+    input{
+        border: 0;
+        width: 90%;
+    }
 }
 .emailIcon{
     color: #1abc9c;

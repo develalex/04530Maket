@@ -809,7 +809,13 @@ body {
   position: relative;
 }
 
-/* line 655, B:/04530Maket/scss/style.scss */
+/* line 654, B:/04530Maket/scss/style.scss */
+.emailBlock input {
+  border: 0;
+  width: 90%;
+}
+
+/* line 659, B:/04530Maket/scss/style.scss */
 .emailIcon {
   color: #1abc9c;
   position: absolute;
@@ -817,7 +823,7 @@ body {
   top: 10px;
 }
 
-/* line 661, B:/04530Maket/scss/style.scss */
+/* line 665, B:/04530Maket/scss/style.scss */
 .subscribeText {
   font-size: 16px;
   color: #939598;
