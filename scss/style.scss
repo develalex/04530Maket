@@ -31,6 +31,10 @@ $whiteBlockFon:white;
     font-family: ubuntu-R;
     src:url('../fonts/ubuntu-R.ttf');
 }
+@font-face{
+    font-family: MyriadProLight;
+    src:url('../fonts/MyriadPro-Light.otf');
+}
 .greenBlockFon{
     background-color: $greenBlockFon;
 }
@@ -800,4 +804,93 @@ body{
         }
     }
     
+}
+.vertLine{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    border-left: 1px solid white;
+}
+#getitrightnow{
+    .headertext{
+        font-family: 'UbuntuLight',sans-serif;
+        font-size: 57px;
+        color: #4c4c4c;
+    }
+    .subtext{
+        font-family: 'Ubuntu-R',sans-serif;
+        font-size: 16px;
+        padding-bottom: 50px;
+        a{
+            color: $textwhatweDO;
+            text-decoration: none;
+        }
+    }
+    
+    
+    .OSBlock{
+        background-color: #222222;
+        color: white;
+        font-family: MyriadProLight,sans-serif;
+        font-size: 15px;
+        display: inline-block;
+        position: relative;
+        padding: 5px;
+        
+        span{
+            font-size: 28px;
+        }
+        p{
+            margin: 0;
+            padding-left: 15px;
+            padding-right: 20px;
+        }
+        .fa,div{
+        display: inline-block;
+        }
+        .fa{
+            padding: 10px;
+        }
+    }
+}
+#grayBlock{
+    padding: 80px $paddingBlock;
+    background-color: #a5a5a5;
+    .iconMan{
+        display: inline-block;
+        position: relative;
+        background-color: white;
+        width: 140px;
+        max-width: 140px;
+        height: 140px;
+        max-height: 140px;
+        border-radius: 50%;
+        background-image: url('../img/iconMan.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    .star{
+        color: #ffb74d;
+        padding: 40px;
+        .fa{
+            padding: 0;
+        }
+    }
+    .most{
+            color: white;
+            font-family: "Ubuntu-R",sans-serif;
+            font-size: 16px;
+    }
+    .someone{
+        padding-top: 40px;
+        padding-bottom: 70px;
+        span{
+            font-family: 'UbuntuBold',sans-serif;
+            font-size: 16px;
+            color: white;
+            }
+        }
+   
 }
