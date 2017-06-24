@@ -16,6 +16,8 @@ $FEDH3Font: 'Ubuntu', sans-serif;
 $FEDPFont: 'Ubuntu-R';
 $FEDH3Size: 27px;
 $grayFon: #f7f7f7;
+$greenBlockFon:#1abc9c;
+$whiteBlockFon:white;
 
 @font-face{
     font-family: ubuntuBold;
@@ -29,7 +31,12 @@ $grayFon: #f7f7f7;
     font-family: ubuntu-R;
     src:url('../fonts/ubuntu-R.ttf');
 }
-
+.greenBlockFon{
+    background-color: $greenBlockFon;
+}
+.whiteBlockFon{
+    background-color: white;
+}
 .colorWebDesignIcon{
     color: #4795b7;
 }
@@ -666,4 +673,131 @@ body{
     font-size: 16px;
     color: #939598;
     padding: 40px 10px;
+}
+.GreenText{
+    color:$textwhatweDO;
+}
+#BetterFaster{
+    p.header{
+        font-family: "Ubuntu-R",sans-serif;
+        font-size: 16px;
+        color:#939598;
+        padding-bottom: 50px;
+        span{
+            font-family: 'UbuntuBold',sans-serif;
+            
+        }
+    }
+    h2{
+        font-family: 'UbuntuLight',sans-serif;
+        font-size: 47px;
+        padding-bottom: 30px;
+    }
+    p.ltext{
+        font-family: 'UbuntuLight',sans-serif;
+        color: #939598;
+        font-size: 16px;
+        padding-bottom: 50px;
+    }
+    
+}
+.butGreen{
+        color: white;
+        background-color: $textwhatweDO;
+}
+
+.but{
+        font-family: "ubuntuLight",sans-serif;
+        border: 0;
+        padding: 15px 35px;
+}
+#productPackages{
+    background-color: #f1f1ef;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: $paddingBlock;
+    padding-right: $paddingBlock;
+    .ich{
+        color: #4c4c4c;
+    }
+    .PPPriceBlock{
+        position: relative;
+        padding-top: 35px;
+        margin-bottom: 15px;
+        padding-bottom: 40px;
+    }
+    .head{
+        padding-bottom: 20px;
+        font-family: 'Ubuntu-R',sans-serif;
+        font-size: 20px;
+        }
+    .cW{
+        color: white;
+        }
+    .cB{
+        color: black;
+        }
+    .circleOut{
+        border-radius: 50%;
+        position:relative;
+        width: 130px;
+        height: 130px;
+        border: 1px solid #e0e0e0;
+        padding: 3px;
+        margin: 0 auto;
+    }
+    .circleIn{
+        border-radius: 50%;
+        position:relative;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        width: 121px;
+        height: 121px;
+        border: 1px solid #e0e0e0;
+        
+    }
+    .cGrayFon{
+        background-color: #fbfbfb;
+    }
+    .price{
+        font-family: 'Ubuntu-R',sans-serif;
+        font-size: 29px;
+        margin: 0;
+    }
+    .permonth{
+        font-family: 'ubuntuLight',sans-serif;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .Btext{
+        font-family: 'UbuntuBold',sans-serif;
+        font-size: 16px;
+        margin: 20px auto;
+        span{
+            font-family: 'Ubuntu-R',sans-serif;
+        }
+    }
+    .Ctext{
+        font-family: 'Ubuntu-R',sans-serif;
+        font-size: 16px;
+        margin: 4px auto;
+        
+    }
+    .colPer{
+        color: #928b8b;
+    }
+    .but{
+        margin-bottom: 30px;
+    }
+    .downText{
+        font-family: 'UbuntuLight',sans-serif;
+        font-size: 15px;
+        color: #939598;
+        span{
+            color: $textwhatweDO;
+        }
+    }
+    
 }
