@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Document</title>
     <script src="js/jquery-3.2.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="js/script.js" type="text/javascript"></script>
+    <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/et-line-style.css">
@@ -33,50 +35,60 @@
                 <a href="" class="">TESTIMONIAL</a>
             </div>
             <div class="col-lg-offset-3 col-lg-2 col-md-offset-3 col-md-2 socNetwork">
-               <div class="socLine"></div>
-                <div class="inlineblock">
-                    <a href="http://www.facebook.com"><i class="fa fa-facebook  fa-2x facebook"></i></a>
-                    <a href="http://www.twitter.com"><i class="fa fa-twitter fa-2x twitter"></i></a>
-                    <a href="http://www.twitter.com">
-                        <div class="inlineblock cir3">
-                            <div class="circlesymbol"></div>
-                            <div class="circlesymbol"></div>
-                            <div class="circlesymbol"></div>
+                <div class="dropdown">
+                    <button  id="menu1" class="dropdown-toggle" type="button" data-toggle="dropdown">
+                       <div class="socLine"></div>
+                        <div class="inlineblock">
+                            <i class="fa fa-facebook  fa-2x facebook"></i>
+                            <i class="fa fa-twitter fa-2x twitter"></i>
+                            <div class="inlineblock cir3">
+                                <div class="circlesymbol"></div>
+                                <div class="circlesymbol"></div>
+                                <div class="circlesymbol"></div>
+                            </div>
                         </div>
-                    </a>
+                        <div class="socLine"></div>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li><a href=""><i class="fa fa-facebook  fa-2x facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-odnoklassniki fa-2x odnoklassniki"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin  fa-2x linkedin"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter  fa-2x twitter"></i></a></li>
+                        <li><a href=""><i class="fa fa-vk fa-2x facebook"></i></a></li>
+                    </ul>
                 </div>
-                <div class="socLine"></div>
+                        
             </div>
         </div>
         <div id="whatwedo" class="row bblock">
            <div class="row">
-               <div class="col-lg-offset-5 col-md-offset-5 col-lg-2 col-md-2 tc">
+               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tc">
                    <span class="icon-happy ich"></span>
                </div>
            </div>
             <div class="row">
-                <div class="col-lg-offset-4 col-md-offset-4 col-lg-4 col-md-4 tc">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tc">
                     <p class="prodfeatures">PRODUCT FEATURES</p>
                 </div>
                 
             </div>
             <div class="row">
-                <div class="col-lg-offset-3 col-md-offset-3 col-lg-6 col-md-6 tc">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tc">
                     <p class="textwhatwedo">What we <span>do</span></p>
                 </div>
             </div>
             <div class="row blockFED tc">
-                <div class="col-lg-4 col-md-4 fullyBlock">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 tc fullyBlock">
                     <span class="icon-mobile"></span>
                     <h3>Fully Responsive</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sunt obcaecati libero voluptate, similique debitis nesciunt iure velit voluptates, animi!</p>
                 </div>
-                <div class="col-lg-4 col-md-4 easyBlock">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 easyBlock">
                     <span class="icon-presentation"></span>
                     <h3>Easy to Customize</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sunt obcaecati libero voluptate, similique debitis nesciunt iure velit voluptates, animi!</p>
                 </div>
-                <div class="col-lg-4 col-md-4 directBlock">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 directBlock">
                     <span class="icon-lightbulb"></span>
                     <h3>Direct Support</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non sunt obcaecati libero voluptate, similique debitis nesciunt iure velit voluptates, animi!</p>
@@ -134,53 +146,47 @@
                     <p class="textwhatwedo">Service We <span>Provide</span></p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 servOuterBloc">
-                    <div id="webDesign" class="col-lg-12 col-md-12 servInnerBlock">
-                        <p class="ServBlockText">Web Design</p>
-                        <p class="ServBlockIcon"><span class="icon-gift colorWebDesignIcon"></span></p>
-                        <div class="webDesignHover">
-                            <a class="sbhover">PSD TO HTML</a>
-                            <a class="sbhover">Adaptive Web Design</a>
-                            <a class="sbhover">Responsive Web Design</a>
-                        </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 servOuterBloc">
+                <div id="webDesign" class="col-lg-12 col-md-12 servInnerBlock">
+                    <p class="ServBlockText">Web Design</p>
+                    <p class="ServBlockIcon"><span class="icon-gift colorWebDesignIcon"></span></p>
+                    <div class="webDesignHover">
+                        <a class="sbhover">PSD TO HTML</a>
+                        <a class="sbhover">Adaptive Web Design</a>
+                        <a class="sbhover">Responsive Web Design</a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 servOuterBloc">
-                    <div id="webDevelopmant" class="col-lg-12 col-md-12 servInnerBlock">
-                        <p class="ServBlockText">Web Development</p>
-                        <p class="ServBlockIcon"><span class="icon-mobile colorWebDevelopmentIcon"></span></p>
-                    </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 servOuterBloc">
+                <div id="webDevelopmant" class="col-lg-12 col-md-12 servInnerBlock">
+                    <p class="ServBlockText">Web Development</p>
+                    <p class="ServBlockIcon"><span class="icon-mobile colorWebDevelopmentIcon"></span></p>
                 </div>
-                <div class="col-lg-4 col-md-4 servOuterBloc">
-                    <div id="webMaintenance" class="col-lg-12 col-md-12 servInnerBlock">
-                        <p class="ServBlockText">Web Maintenance</p>
-                        <p class="ServBlockIcon"><span class="icon-tools colorWebMaintenanceIcon"></span></p>
-                    </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 servOuterBloc">
+                <div id="webMaintenance" class="col-lg-12 col-md-12 servInnerBlock">
+                    <p class="ServBlockText">Web Maintenance</p>
+                    <p class="ServBlockIcon"><span class="icon-tools colorWebMaintenanceIcon"></span></p>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 servOuterBloc">
+                <div id="projectManagement" class="col-lg-12 col-md-12 servInnerBlock">
+                    <p class="ServBlockText">Project Management</p>
+                    <p class="ServBlockIcon"><span class="icon-paintbrush colorProjectManagementIcon"></span></p>
                 </div>
                 
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 servOuterBloc">
-                    <div id="projectManagement" class="col-lg-12 col-md-12 servInnerBlock">
-                        <p class="ServBlockText">Project Management</p>
-                        <p class="ServBlockIcon"><span class="icon-paintbrush colorProjectManagementIcon"></span></p>
-                    </div>
-                    
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 servOuterBloc">
+                <div id="webDevelopment2" class="col-lg-12 col-md-12 servInnerBlock">
+                    <p class="ServBlockText">Web Development</p>
+                    <p class="ServBlockIcon"><span class="icon-lightbulb colorWebDevelopment2Icon"></span></p>
                 </div>
-                <div class="col-lg-4 col-md-4 servOuterBloc">
-                    <div id="webDevelopment2" class="col-lg-12 col-md-12 servInnerBlock">
-                        <p class="ServBlockText">Web Development</p>
-                        <p class="ServBlockIcon"><span class="icon-lightbulb colorWebDevelopment2Icon"></span></p>
-                    </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 servOuterBloc">
+                <div id="webMaintenance2" class="col-lg-12 col-md-12 servInnerBlock">
+                    <p class="ServBlockText">Web Maintenance</p>
+                    <p class="ServBlockIcon"><span class="icon-video colorWebMaintenance2Icon"></span></p>
                 </div>
-                <div id="webMaintenance2" class="col-lg-4 col-md-4 servOuterBloc">
-                    <div class="col-lg-12 col-md-12 servInnerBlock">
-                        <p class="ServBlockText">Web Maintenance</p>
-                        <p class="ServBlockIcon"><span class="icon-video colorWebMaintenance2Icon"></span></p>
-                    </div>
-                </div>
-                
             </div>
             
         </div>
@@ -220,24 +226,24 @@
                             </div>
                         </div>
                         <div id="AboutContent" class="tbCont">
-                            <div class="col-lg-3 col-md-3">
+                            <div class="col-sm-3 col-md-3 col-lg-3">
                                 <span class="icon-globe bIcon colorAqua"></span>
                             </div>
-                            <div class="col-md-offset-1 col-lg-offset-1 col-lg-8 col-md-8 tabText">
+                            <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-8 col-md-8 col-lg-8 tabText">
                                 <h3>About...</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, qui excepturi veritatis incidunt ipsum illo itaque odio mollitia, consequatur ipsam unde aspernatur iure, voluptatibus commodi eveniet nihil sit ullam quod quaerat cumque accusantium porro architecto quam. Est nam, soluta sit sunt nostrum nobis magnam, ducimus ipsam earum in eligendi quo. Tempora amet dolores vel repellendus sed veritatis quo exercitationem, quos nihil qui explicabo impedit eum enim natus ducimus, id. Porro temporibus dolorum, enim ut esse, facilis excepturi vel ducimus hic modi quod praesentium commodi blanditiis ea ab est eaque quas distinctio. Repudiandae cumque laudantium, error a in, obcaecati quia quis?</p>
                             </div>
                         </div>
                         <div id="FeaturesContent" class="tbCont">
                             
-                            <div class="col-lg-8 col-md-8 tabText">
+                            <div class="col-sm-8 col-md-8 col-lg-8 tabText">
                                 <h3>Our features</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                                     Maiores explicabo beatae omnis modi laboriosam? Totam quae, 
                                     ab, vero tempora minus ipsam at dolores dolor, obcaecati 
                                     deleniti provident pariatur ex modi aperiam. Quae, itaque.</p>
                             </div>
-                            <div class="col-md-offset-1 col-lg-offset-1 col-lg-3 col-md-3">
+                            <div class="col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-sm-3 col-md-3 col-lg-3">
                                 <span class="icon-gears bIcon colorWHGreen"></span>
                             </div>
                         </div>
@@ -271,8 +277,8 @@
                 </div>
             </div>
             <div class="conteiner-fluid">
-                <div class="row">
-                    <div id="bl1" class="col-lg-3 col-md-3 block rollDown">
+                
+                    <div id="bl1" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 block rollDown">
                         <div class="row worksSquard bcolor1">
                             <div class="blHover">
                                 
@@ -288,7 +294,7 @@
                                 <span class="name">JB</span>
                         </div>
                     </div>
-                    <div id="bl2" class="col-lg-3 col-md-3 block rollDown">
+                    <div id="bl2" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 block rollDown">
                         <div class="row worksSquard bcolor2">
                             <div class="blHover">
                                 
@@ -304,7 +310,7 @@
                                 <span class="name">JB</span>
                         </div>
                     </div>
-                    <div id="bl3" class="col-lg-3 col-md-3 block rollDown">
+                    <div id="bl3" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 block rollDown">
                         <div class="row worksSquard bcolor3">
                             <div class="blHover">
                                 
@@ -320,7 +326,7 @@
                                 <span class="name">TJ</span>
                         </div>
                     </div>
-                    <div id="bl4" class="col-lg-3 col-md-3 block rollDown">
+                    <div id="bl4" class="col-xs-6 col-sm-6 col-md-3 col-lg-3 block rollDown">
                         <div class="row worksSquard bcolor4">
                             <div class="blHover">
                                 
@@ -336,31 +342,30 @@
                                 <span class="name">JB</span>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 worksSquard bcolor5"></div>
-        <div id="bl6" class="col-lg-3 col-md-3 block rollUp">
-            <div class="row worksSquard bcolor6">
-                <div class="blHover">
-                    <div class="text-left blockHover">
-                        <span class="blockCss">Bootstrap</span>
-                        <span class="blockCss">Landing</span>
-                        <span class="blockCss">Css</span>
-                        <span class="blockCss">JQuery</span>
-                    </div>
-                    <img id="b6Img" class="bImg" src="img/iceCream.PNG" alt="">
-                                
-                </div>
-            </div>
+                
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 worksSquard bcolor5"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 block rollUp">
+                        <div class="row worksSquard bcolor6">
+                            <div class="blHover">
+                                <div class="text-left blockHover">
+                                    <span class="blockCss">Bootstrap</span>
+                                    <span class="blockCss">Landing</span>
+                                    <span class="blockCss">Css</span>
+                                    <span class="blockCss">JQuery</span>
+                                </div>
+                                <img id="b6Img" class="bImg" src="img/iceCream.PNG" alt="">
+
+                            </div>
+                        </div>
             <div class="row underBlock text-left col-lg-12 col-md-12">
                     <p class="what">Infinite Landing Page</p>
                     <span>by </span>
                     <span class="name">Naveen</span>
             </div>
         </div>
-                    <div class="col-lg-3 col-md-3 worksSquard bcolor7"></div>
-                    <div class="col-lg-3 col-md-3 worksSquard bcolor8"></div>
-                </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 worksSquard bcolor7"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 worksSquard bcolor8"></div>
+                
             </div>
         </div>
 <a name="OurTeam"></a>
@@ -381,7 +386,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="teamPerson">
                         <div class="row">
                             <div class="personFoto">
@@ -401,7 +406,7 @@
                         
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="teamPerson">
                         <div class="row">
                             <div class="personFoto">
@@ -420,7 +425,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="teamPerson">
                         <div class="row">
                             <div class="personFoto">
@@ -442,35 +447,37 @@
             </div>
     </div>
         <div id="newFeatures" class="row bblock text-center">
-            <div class="col-md-6 col-lg-6">
-                <div class="rectangles">
+            <div class="hidden-xs col-sm-6 col-md-6 col-lg-6">
+                <div id="rect" class="rectangles">
                     <div class="rectangle rect1"></div>
                     <div class="rectangle rect2"></div>
                     <div class="rectangle rect3"></div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 text-left">
-                <h2>NEW FEATURES</h2>
-                <h3>Some extra <span class="" >Love</span> from us</h3>
-                <h6>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor.</h6>
-                <div class="row">
-                    <div class="col-md-6 col-lg-6">
-                        <ul>
-                            <li>Modern Design</li>
-                            <li>Fully Responsive</li>
-                            <li>Bootstrap Grid</li>
-                            <li>Mailchimp Supported</li>
-                            <li>Easy to customize</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <ul>
-                            <li>Powerfull Option</li>
-                            <li>Fresh Color</li>
-                            <li>Validated Code</li>
-                            <li>Ajax Supported Form</li>
-                            <li>Best Typography</li>
-                        </ul>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div id="nf">
+                    <h2>NEW FEATURES</h2>
+                    <h3>Some extra <span class="" >Love</span> from us</h3>
+                    <h6>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor.</h6>
+                    <div class="row">
+                        <div class="col-xs-offset-2 col-xs-4 col-sm-6 col-md-6 col-lg-6 text-left">
+                            <ul>
+                                <li>Modern Design</li>
+                                <li>Fully Responsive</li>
+                                <li>Bootstrap Grid</li>
+                                <li>Mailchimp Supported</li>
+                                <li>Easy to customize</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-offset-2 col-xs-4 col-sm-6 col-md-6 col-lg-6 text-left">
+                            <ul>
+                                <li>Powerfull Option</li>
+                                <li>Fresh Color</li>
+                                <li>Validated Code</li>
+                                <li>Ajax Supported Form</li>
+                                <li>Best Typography</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -482,27 +489,27 @@
         <div id="blackBlock" class="row">
             <div class="row text-center">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h3>70% People Belive Another Consumer's Opinion Posted Online</h3>
                     </div>
                 </div>
                 <div class="row blackColumn">
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <span class="et icon-facebook"></span>
                         <div class='bh1'>5,000</div>
                         <div class="bh6">Facebook Like</div>
                     </div>
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <span class="et icon-twitter"></span>
                         <div class='bh1'>3,000</div>
                         <div class="bh6">Twitter Followers</div>
                     </div>
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <span class="et icon-happy"></span>
                         <div class='bh1'>900</div>
                         <div class="bh6">Happy Client</div>
                     </div>
-                    <div class="col-md-3 col-lg-3">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <span class="et icon-globe"></span>
                         <div class='bh1'>7,000</div>
                         <div class="bh6">Money Earned</div>
@@ -510,14 +517,17 @@
                 </div>
             </div>
         </div>
-        <div id="subscribe" class="row">
+        <div id="subscribe" class="row bblock">
             <div class="row">
-                <div class="col-md-offset-7 col-lg-offset-7 col-md-5 col-lg-5">
+                <div class="col-sm-offset-7 col-md-offset-7 col-lg-offset-7 col-sm-5 col-md-5 col-lg-5">
                     <div class="subscribeP">Subcribe</div>
-                    <form action="">
+                    <form id="SubmitForm" action="">
                         <div class="emailBlock">
                             <input type="text" name="email" id="" value="Enter Your E-mail">
-                            <i class="fa fa-envelope fa-2x emailIcon" ></i>
+                            <button type="submit" form="SubmitForm" value="Submit">  
+                                <span><i class="fa fa-envelope fa-2x emailIcon" ></i></span>
+                                
+                            </button>
                         </div>
                     </form>
                     <div class="subscribeText">Subscribe to our weekly newsletter, We promise you that we 
@@ -535,7 +545,7 @@ maiores delectus modi ut ab!</div>
             <p class="ltext"><i>The Infinite is most converting landing page ever, Everything you can wish for.</i></p>
             <button class="but butGreen">Buy Now</button>
         </div>
-        <div id="productPackages" class="row text-center grayfon">
+        <div id="productPackages" class="row bblock text-center grayfon">
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                        <span class="icon-presentation ich grayColor"></span>
@@ -552,7 +562,7 @@ maiores delectus modi ut ab!</div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="PPPriceBlock whiteBlockFon">
                     <p class="head cB">BASIC</p>
                         <div class="circleOut">
@@ -575,7 +585,7 @@ maiores delectus modi ut ab!</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="PPPriceBlock greenBlockFon cW">
                        <p class="head cW">PREMIUM</p>
                        <div class="circleOut">
@@ -598,7 +608,7 @@ maiores delectus modi ut ab!</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                     <div class="PPPriceBlock whiteBlockFon">
                        <p class="head cB">ULTIMATE</p> 
                        <div class="circleOut">

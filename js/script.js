@@ -5,6 +5,10 @@ $(function(){
     $('#tabIntroduction').click(tabIntroClick);
     $('#tabAbout').click(tabAboutClick);
     $('#tabFeatures').click(tabFeaturesClick);
+    var w=$("#rect").width()-500;
+    $(".rect1").css('left',w);
+    $(".rect2").css('left',w);
+    $(".rect3").css('left',w);
       
     
 });
@@ -28,5 +32,11 @@ function tabIntroClick(){
 function tabFeaturesClick(){
     clearActiveTab();
     $('#tabFeatures').addClass('tabActive');
-    $('#FeaturesContent').css('display','block');
+    if (screen.width<768){
+        $('#FeaturesContent').css('display','flex');
+        $('#FeaturesContent').css('flex-direction','column-reverse');
+    }else{
+        $('#FeaturesContent').css('display','block');
+    }
+    
 };
