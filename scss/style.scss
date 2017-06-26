@@ -18,10 +18,20 @@ $FEDH3Size: 27px;
 $grayFon: #f7f7f7;
 $greenBlockFon:#1abc9c;
 $whiteBlockFon:white;
+@font-face{
+    font-family:boldCY;
+    src:url('../fonts/mybold.woff2') format('woff2');
+    
+}
+
 
 @font-face{
     font-family: ubuntuBold;
     src:url('../fonts/ubuntuBold.ttf');
+}
+@font-face{
+    font-family: NewYorkTimes;
+    src:url('../fonts/OldeEnglish.ttf');
 }
 @font-face{
     font-family: ubuntuLight;
@@ -883,7 +893,8 @@ body{
     }
 }
 #grayBlock{
-    padding: 80px $paddingBlock;
+    padding: 0 $paddingBlock;
+    padding-top: 80px;
     background-color: #a5a5a5;
     .iconMan{
         display: inline-block;
@@ -919,8 +930,78 @@ body{
             color: white;
             }
         }
+    
    
 }
+#partners{
+        background-color: #f9f9f9;
+        color: $textwhatweDO;
+        font-family: "Ubuntu-R",sans-serif;
+        font-size: 27px;
+        padding: 80px 0;
+    span{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        vertical-align: middle;
+        padding: 0 20px;
+        font-weight: 700;
+    }
+    .mybold{
+        font-family: 'mybold',serif;
+        font-weight: 700;
+        font-size: 40px;
+        color:#8f8f8f;
+    }
+    .newyorktimes{
+        font-family: "NewYorkTimes",serif;
+        font-size: 40px;
+        color:#8f8f8f;
+    }
+    .wallstreet{
+        max-height: 30px;
+    }
+    .guardian{
+        max-height: 50px;
+        
+    }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    }
+#contactUs{
+    color: #c9c9c9;
+    .l300{
+        input{
+            width: 48%;
+        }
+    }
+    .l600{
+        input{
+            width: 98%;
+        }
+    }
+    .l26{
+        input{
+            width: 98%;
+            height: 200px;
+        }
+    }
+    input{
+        height: 50px;
+        margin: 5px 5px;
+    }
+    button{
+        padding: 15px 40px;
+        margin: 70px 0;
+    }
+    .bblock{
+        padding-top: 0;
+    }
+}
+
 
 @media (max-width: 480px){
     .bblock{
