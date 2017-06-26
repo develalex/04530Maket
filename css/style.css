@@ -1278,49 +1278,83 @@ body {
   font-size: 19px;
 }
 
+/* line 1019, B:/04530Maket/scss/style.scss */
+#footerGreenBlock {
+  padding: 40px 220px;
+  font-family: 'ubuntuLight',sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+/* line 1025, B:/04530Maket/scss/style.scss */
+#footerGreenBlock .header {
+  font-size: 46px;
+  padding-left: 0;
+}
+
+/* line 1029, B:/04530Maket/scss/style.scss */
+#footerGreenBlock span {
+  font-family: 'ubuntuBold',sans-serif;
+}
+
+/* line 1032, B:/04530Maket/scss/style.scss */
+#footerGreenBlock .but {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  padding-left: 0;
+  padding-top: 30px;
+}
+
+/* line 1039, B:/04530Maket/scss/style.scss */
+#footerGreenBlock .but button {
+  padding: 10px 40px;
+  border: 1px solid white;
+}
+
 @media (max-width: 480px) {
-  /* line 1021, B:/04530Maket/scss/style.scss */
+  /* line 1047, B:/04530Maket/scss/style.scss */
   .bblock {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 1025, B:/04530Maket/scss/style.scss */
+  /* line 1051, B:/04530Maket/scss/style.scss */
   #nf, .subscribeP {
     text-align: center;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 1032, B:/04530Maket/scss/style.scss */
+  /* line 1058, B:/04530Maket/scss/style.scss */
   .bblock {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 1036, B:/04530Maket/scss/style.scss */
+  /* line 1062, B:/04530Maket/scss/style.scss */
   #nf, .subscribeP {
     text-align: center;
   }
 }
 
 @media (min-width: 768px) and (max-width: 969px) {
-  /* line 1043, B:/04530Maket/scss/style.scss */
+  /* line 1069, B:/04530Maket/scss/style.scss */
   .bblock {
     padding-left: 0;
     padding-right: 0;
   }
-  /* line 1047, B:/04530Maket/scss/style.scss */
+  /* line 1073, B:/04530Maket/scss/style.scss */
   #nf {
     text-align: center;
   }
 }
 
 @media (min-width: 967px) and (max-width: 1200px) {
-  /* line 1052, B:/04530Maket/scss/style.scss */
+  /* line 1078, B:/04530Maket/scss/style.scss */
   .bblock {
     padding-left: 220px;
     padding-right: 220px;
   }
-  /* line 1056, B:/04530Maket/scss/style.scss */
+  /* line 1082, B:/04530Maket/scss/style.scss */
   #nf {
     text-align: center;
   }
