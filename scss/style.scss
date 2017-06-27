@@ -123,6 +123,12 @@ body{
     margin: 0 auto;
     
 }
+
+.dropdown{
+    .fa{
+        width: 36px;
+    }
+}
 .grayfon{
     background-color: $grayFon;
 }
@@ -167,7 +173,7 @@ body{
 }
 .socNetwork{
     font-family: Awesome sans-serif;
-    padding-left: 30px;
+    padding-left: 25px;
     padding-top: 3px;
     padding-bottom: 3px;
     a{
@@ -185,8 +191,62 @@ body{
     height: 34px;
     border: 1px solid #f3f3f3;
 }
+#header{
+    background-color: #7a7a7a;
+    color: white;
+    font-family: 'ubuntuLight',sans-serif;
+    font-size: 16px;
+    padding: 90px $paddingBlock;
+    
+    
+    p{
+        color: white;
+    }
+    .comments{
+        padding-top: 50px; 
+    }
+    .subcont{
+        font-size: 24px;
+    }
+    .textwhatwedo{
+        padding: 40px 0;
+    }
+    .fa{
+        font-size: 120px;
+        padding: 70px 0;
+    }
+    .subs{
+            padding: 10px 35px;
+            margin-left:-4px;
+            position: relative;
+        
+    }
+    input{
+            background-color: white;
+            color: #c3c7d1;
+            font-size: 14px;
+            border-right: 1px solid gray;
+        }
+    
+    
+}
+.behance{
+    color:#1a5cd6;
+}
+.dribbble{
+    color:#c34577;
+}
+.instagram{
+    color: #486e8d;
+}
 .facebook{
     color: $facebookColorIcon;
+}
+.flickr{
+    color: #d30873;
+}
+.google-plus{
+    color:#b84437;
 }
 .twitter{
     color: $twitterColorIcon;
@@ -196,6 +256,9 @@ body{
 }
 .odnoklassniki {
    color:coral; 
+}
+.pinterest{
+    color:#aa2229;
 }
 
 .fa{
@@ -1041,6 +1104,30 @@ body{
             border: 1px solid white;
         }
     }
+}
+#designed{
+    background-color: #252830;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: 'ubuntu-R',sans-serif;
+    font-size: 16px;
+    justify-content: space-between;
+    margin: 0 -15px;
+    padding: 40px $paddingBlock;
+    
+    .trademark{
+        &>div{
+            display: inline-block;
+        }
+        
+    }
+    
+    .tradecomment{
+        margin-left: 15px;
+    }
+    
+    
 }
 
 @media (max-width: 480px){
